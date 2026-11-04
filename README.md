@@ -226,6 +226,5 @@ PROTOCOL.md                  WebSocket 事件协议
 
 本项目基于 [JacobLinCool/open-realtime-translate](https://github.com/JacobLinCool/open-realtime-translate)，原作者为 [@JacobLinCool](https://github.com/JacobLinCool)。VoiceBridge JP 在其语音翻译服务基础上增加了 Windows 桌面界面、音频路由、日语处理和摄像头联动功能。
 
-截至 2026-11-04，上游项目级再分发授权尚未确认，公开发布前仍需补齐授权。详见 [LICENSE_STATUS.md](LICENSE_STATUS.md)。
 
 主要第三方组件包括 GPT-SoVITS（MIT）、Qwen3-ASR（Apache 2.0）、OPUS-MT zh-ja（CC BY 4.0）、Qt/PySide6、pyvirtualcam（GPLv2）、OBS、FFmpeg 和 VB-CABLE，各自适用其许可。完整来源、版本及分发注意事项见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)，依赖清单见 [THIRD_PARTY_COMPONENTS.json](THIRD_PARTY_COMPONENTS.json)。
