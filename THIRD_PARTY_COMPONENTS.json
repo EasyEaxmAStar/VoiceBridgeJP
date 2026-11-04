@@ -1,0 +1,2477 @@
+{
+  "scope": "Directly declared inference/runtime requirements; not a guarantee for every transitive/native component or arbitrary rebuild",
+  "components": [
+    {
+      "package": "accelerate",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-asr-cuda.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "1.12.0",
+      "license_expression": null,
+      "license": "Apache",
+      "homepage": "https://github.com/huggingface/accelerate",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "aiohappyeyeballs",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "2.7.1",
+      "license_expression": null,
+      "license": "PSF-2.0",
+      "homepage": null,
+      "project_urls": [
+        "Bug Tracker, https://github.com/aio-libs/aiohappyeyeballs/issues",
+        "Changelog, https://github.com/aio-libs/aiohappyeyeballs/blob/main/CHANGELOG.md",
+        "Documentation, https://aiohappyeyeballs.readthedocs.io",
+        "Repository, https://github.com/aio-libs/aiohappyeyeballs"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "aiohttp",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "3.14.5",
+      "license_expression": "Apache-2.0 AND MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/aio-libs/aiohttp",
+        "Chat: Matrix, https://matrix.to/#/#aio-libs:matrix.org",
+        "Chat: Matrix Space, https://matrix.to/#/#aio-libs-space:matrix.org",
+        "CI: GitHub Actions, https://github.com/aio-libs/aiohttp/actions?query=workflow%3ACI",
+        "Coverage: codecov, https://codecov.io/github/aio-libs/aiohttp",
+        "Docs: Changelog, https://docs.aiohttp.org/en/stable/changes.html",
+        "Docs: RTD, https://docs.aiohttp.org",
+        "GitHub: issues, https://github.com/aio-libs/aiohttp/issues",
+        "GitHub: repo, https://github.com/aio-libs/aiohttp"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "aiosignal",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "1.4.0",
+      "license_expression": null,
+      "license": "Apache 2.0",
+      "homepage": "https://github.com/aio-libs/aiosignal",
+      "project_urls": [
+        "Chat: Gitter, https://gitter.im/aio-libs/Lobby",
+        "CI: GitHub Actions, https://github.com/aio-libs/aiosignal/actions",
+        "Coverage: codecov, https://codecov.io/github/aio-libs/aiosignal",
+        "Docs: RTD, https://docs.aiosignal.org",
+        "GitHub: issues, https://github.com/aio-libs/aiosignal/issues",
+        "GitHub: repo, https://github.com/aio-libs/aiosignal"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "annotated-doc",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "0.0.5",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/fastapi/annotated-doc",
+        "Documentation, https://github.com/fastapi/annotated-doc",
+        "Repository, https://github.com/fastapi/annotated-doc",
+        "Issues, https://github.com/fastapi/annotated-doc/issues",
+        "Changelog, https://github.com/fastapi/annotated-doc/release-notes.md"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "annotated-types",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.8.0",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/annotated-types/annotated-types",
+        "Source, https://github.com/annotated-types/annotated-types",
+        "Changelog, https://github.com/annotated-types/annotated-types/releases"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "anyio",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "4.15.1",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Documentation, https://anyio.readthedocs.io/en/latest/",
+        "Changelog, https://anyio.readthedocs.io/en/stable/versionhistory.html",
+        "Source code, https://github.com/agronholm/anyio",
+        "Issue tracker, https://github.com/agronholm/anyio/issues"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "attrs",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "26.1.0",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Documentation, https://www.attrs.org/",
+        "Changelog, https://www.attrs.org/en/stable/changelog.html",
+        "GitHub, https://github.com/python-attrs/attrs",
+        "Funding, https://github.com/sponsors/hynek",
+        "Tidelift, https://tidelift.com/subscription/pkg/pypi-attrs?utm_source=pypi-attrs&utm_medium=pypi"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "audioread",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "3.1.0",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Bug Tracker, https://github.com/beetbox/audioread/issues",
+        "Homepage, https://github.com/beetbox/audioread",
+        "Repository, https://github.com/beetbox/audioread"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "av",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-asr-cuda.txt"
+      ],
+      "observed_version": "17.1.0",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Bug Tracker, https://github.com/PyAV-Org/PyAV/issues",
+        "Source Code, https://github.com/PyAV-Org/PyAV",
+        "homepage, https://pyav.basswood-io.com"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "blinker",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "1.9.0",
+      "license_expression": null,
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Chat, https://discord.gg/pallets",
+        "Documentation, https://blinker.readthedocs.io",
+        "Source, https://github.com/pallets-eco/blinker/"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "brotli",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "1.2.1",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": "https://github.com/google/brotli",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "budoux",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.10.1",
+      "license_expression": "Apache-2.0",
+      "license": "",
+      "homepage": null,
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "certifi",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "2026.10.23",
+      "license_expression": null,
+      "license": "MPL-2.0",
+      "homepage": "https://github.com/certifi/python-certifi",
+      "project_urls": [
+        "Source, https://github.com/certifi/python-certifi"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "cffi",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "2.1.1",
+      "license_expression": "MIT-0",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Documentation, https://cffi.readthedocs.io/",
+        "Changelog, https://cffi.readthedocs.io/en/latest/whatsnew.html",
+        "Download, https://github.com/python-cffi/cffi/releases",
+        "Contact, https://groups.google.com/forum/#!forum/python-cffi",
+        "Source Code, https://github.com/python-cffi/cffi",
+        "Issue Tracker, https://github.com/python-cffi/cffi/issues"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "charset-normalizer",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "3.5.2",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": null,
+      "project_urls": [
+        "Changelog, https://github.com/jawah/charset_normalizer/blob/master/CHANGELOG.md",
+        "Documentation, https://charset-normalizer.readthedocs.io/",
+        "Code, https://github.com/jawah/charset_normalizer",
+        "Issue tracker, https://github.com/jawah/charset_normalizer/issues"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "click",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "8.5.0",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Changes, https://click.palletsprojects.com/page/changes/",
+        "Chat, https://discord.gg/pallets",
+        "Documentation, https://click.palletsprojects.com/",
+        "Donate, https://palletsprojects.com/donate",
+        "Source, https://github.com/pallets/click/"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "cloudpickle",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "3.1.2",
+      "license_expression": null,
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/cloudpipe/cloudpickle",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "cn2an",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "0.5.23",
+      "license_expression": null,
+      "license": "MIT License",
+      "homepage": "https://github.com/Ailln/cn2an",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "colorama",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "0.4.6",
+      "license_expression": null,
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/tartley/colorama"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "colorlog",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "6.12.0",
+      "license_expression": null,
+      "license": "MIT License",
+      "homepage": "https://github.com/borntyping/python-colorlog",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "contourpy",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "1.3.3",
+      "license_expression": null,
+      "license": "BSD 3-Clause License\n\n Copyright (c) 2021-2025, ContourPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/contourpy/contourpy",
+        "Changelog, https://contourpy.readthedocs.io/en/latest/changelog.html",
+        "Documentation, https://contourpy.readthedocs.io",
+        "Repository, https://github.com/contourpy/contourpy"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "cycler",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.12.1",
+      "license_expression": null,
+      "license": "Copyright (c) 2015, matplotlib project\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted prov",
+      "homepage": null,
+      "project_urls": [
+        "homepage, https://matplotlib.org/cycler/",
+        "repository, https://github.com/matplotlib/cycler"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "cython",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "3.3.0",
+      "license_expression": null,
+      "license": "Apache-2.0",
+      "homepage": "https://cython.org/",
+      "project_urls": [
+        "Documentation, https://cython.readthedocs.io/",
+        "Donate, https://cython.readthedocs.io/en/latest/src/donating.html",
+        "Source Code, https://github.com/cython/cython",
+        "Bug Tracker, https://github.com/cython/cython/issues/",
+        "User Group, https://groups.google.com/g/cython-users"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "decorator",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "5.3.1",
+      "license_expression": null,
+      "license": "BSD-2-Clause",
+      "homepage": null,
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "defusedxml",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.7.1",
+      "license_expression": null,
+      "license": "PSFL",
+      "homepage": "https://github.com/tiran/defusedxml",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "distance",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.1.3",
+      "license_expression": null,
+      "license": "",
+      "homepage": "https://github.com/doukremt/distance",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "dynet38",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "2.2",
+      "license_expression": null,
+      "license": "Apache 2.0",
+      "homepage": "https://github.com/taishi-i/dynet",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "einops",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.8.2",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/arogozhnikov/einops"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "einx",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.4.3",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/fferflo/einx",
+        "Source, https://github.com/fferflo/einx",
+        "Documentation, https://einx.readthedocs.io"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "fast-langdetect",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "0.3.2",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": null,
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "fastapi",
+      "declared_in": [
+        "requirements-app.txt",
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "0.162.0",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/fastapi/fastapi",
+        "Documentation, https://fastapi.tiangolo.com/",
+        "Repository, https://github.com/fastapi/fastapi",
+        "Issues, https://github.com/fastapi/fastapi/issues",
+        "Changelog, https://fastapi.tiangolo.com/release-notes/"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "fasttext-predict",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.9.2.4",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": "https://github.com/searxng/fasttext-predict/",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "ffmpeg-python",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "0.2.0",
+      "license_expression": null,
+      "license": "UNKNOWN",
+      "homepage": "https://github.com/kkroening/ffmpeg-python",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "filelock",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "4.2.4",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Documentation, https://py-filelock.readthedocs.io",
+        "Homepage, https://github.com/tox-dev/py-filelock",
+        "Source, https://github.com/tox-dev/py-filelock",
+        "Tracker, https://github.com/tox-dev/py-filelock/issues"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "flask",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "3.1.3",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Changes, https://flask.palletsprojects.com/page/changes/",
+        "Chat, https://discord.gg/pallets",
+        "Documentation, https://flask.palletsprojects.com/",
+        "Donate, https://palletsprojects.com/donate",
+        "Source, https://github.com/pallets/flask/"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "fonttools",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "4.68.0",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": "http://github.com/fonttools/fonttools",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "frozendict",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "2.4.7",
+      "license_expression": null,
+      "license": "LGPL v3",
+      "homepage": "https://github.com/Marco-Sulla/python-frozendict",
+      "project_urls": [
+        "Bug Reports, https://github.com/Marco-Sulla/python-frozendict/issues",
+        "Source, https://github.com/Marco-Sulla/python-frozendict"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "frozenlist",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "1.8.0",
+      "license_expression": null,
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/aio-libs/frozenlist",
+      "project_urls": [
+        "Chat: Matrix, https://matrix.to/#/#aio-libs:matrix.org",
+        "Chat: Matrix Space, https://matrix.to/#/#aio-libs-space:matrix.org",
+        "CI: Github Actions, https://github.com/aio-libs/frozenlist/actions",
+        "Code of Conduct, https://github.com/aio-libs/.github/blob/master/CODE_OF_CONDUCT.md",
+        "Coverage: codecov, https://codecov.io/github/aio-libs/frozenlist",
+        "Docs: Changelog, https://github.com/aio-libs/frozenlist/blob/master/CHANGES.rst#changelog",
+        "Docs: RTD, https://frozenlist.aio-libs.org",
+        "GitHub: issues, https://github.com/aio-libs/frozenlist/issues",
+        "GitHub: repo, https://github.com/aio-libs/frozenlist"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "fsspec",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "2026.9.0",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Changelog, https://filesystem-spec.readthedocs.io/en/latest/changelog.html",
+        "Documentation, https://filesystem-spec.readthedocs.io/en/latest/",
+        "Homepage, https://github.com/fsspec/filesystem_spec"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "future",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "1.0.0",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": "https://python-future.org",
+      "project_urls": [
+        "Source, https://github.com/PythonCharmers/python-future"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "g2p-en",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "2.1.0",
+      "license_expression": null,
+      "license": "Apache Software License",
+      "homepage": "https://github.com/Kyubyong/g2p",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "gradio",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "6.17.3",
+      "license_expression": "Apache-2.0",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/gradio-app/gradio"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "gradio-client",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "2.5.0",
+      "license_expression": "Apache-2.0",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/gradio-app/gradio"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "groovy",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "0.1.2",
+      "license_expression": null,
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "homepage, https://github.com/gradio-app/groovy",
+        "repository, https://github.com/gradio-app/groovy"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "h11",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "0.16.0",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": "https://github.com/python-hyper/h11",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "hf-gradio",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "0.4.1",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/gradio-app/hf-gradio#"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "httpcore",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "1.0.9",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Documentation, https://www.encode.io/httpcore",
+        "Homepage, https://www.encode.io/httpcore/",
+        "Source, https://github.com/encode/httpcore"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "httpx",
+      "declared_in": [
+        "requirements-app.txt",
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "0.28.1",
+      "license_expression": null,
+      "license": "BSD-3-Clause",
+      "homepage": null,
+      "project_urls": [
+        "Changelog, https://github.com/encode/httpx/blob/master/CHANGELOG.md",
+        "Documentation, https://www.python-httpx.org",
+        "Homepage, https://github.com/encode/httpx",
+        "Source, https://github.com/encode/httpx"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "huggingface-hub",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-asr-cuda.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt",
+        "requirements-opusmt-cpu.lock.txt",
+        "requirements-opusmt-cpu.txt"
+      ],
+      "observed_version": "0.36.2",
+      "license_expression": null,
+      "license": "Apache",
+      "homepage": "https://github.com/huggingface/huggingface_hub",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "idna",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "3.20",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Changelog, https://github.com/kjd/idna/blob/master/HISTORY.md",
+        "Issue tracker, https://github.com/kjd/idna/issues",
+        "Source, https://github.com/kjd/idna"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "inflect",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "7.6.0",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Source, https://github.com/jaraco/inflect"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "itsdangerous",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "2.2.0",
+      "license_expression": null,
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Changes, https://itsdangerous.palletsprojects.com/changes/",
+        "Chat, https://discord.gg/pallets",
+        "Documentation, https://itsdangerous.palletsprojects.com/",
+        "Donate, https://palletsprojects.com/donate",
+        "Source, https://github.com/pallets/itsdangerous/"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "jaraco-functools",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": null,
+      "license_expression": null,
+      "license": null,
+      "homepage": null,
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "jieba",
+      "declared_in": [
+        "requirements-app.txt",
+        "requirements-dictionary.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "0.42.1",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": "https://github.com/fxsjy/jieba",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "jinja2",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "3.1.6",
+      "license_expression": null,
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Changes, https://jinja.palletsprojects.com/changes/",
+        "Chat, https://discord.gg/pallets",
+        "Documentation, https://jinja.palletsprojects.com/",
+        "Donate, https://palletsprojects.com/donate",
+        "Source, https://github.com/pallets/jinja/"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "joblib",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "1.6.0",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://joblib.readthedocs.io",
+        "Source, https://github.com/joblib/joblib"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "kiwisolver",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "1.5.1",
+      "license_expression": null,
+      "license": "=========================\n The Kiwi licensing terms\n=========================\nKiwi is licensed under the terms of the Modified BSD License (also known as\nNew or",
+      "homepage": null,
+      "project_urls": [
+        "homepage, https://github.com/nucleic/kiwi",
+        "documentation, https://kiwisolver.readthedocs.io/en/latest/",
+        "repository, https://github.com/nucleic/kiwi",
+        "changelog, https://github.com/nucleic/kiwi/blob/main/releasenotes.rst"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "lazy-loader",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.6",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Home, https://scientific-python.org/specs/spec-0001/",
+        "Source, https://github.com/scientific-python/lazy-loader"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "librosa",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-asr-cuda.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "0.11.0",
+      "license_expression": null,
+      "license": "ISC",
+      "homepage": "https://librosa.org",
+      "project_urls": [
+        "Documentation, https://librosa.org/doc",
+        "Download, https://github.com/librosa/librosa/releases",
+        "Source, https://github.com/librosa/librosa",
+        "Tracker, https://github.com/librosa/librosa/issues",
+        "Discussion forum, https://groups.google.com/g/librosa"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "lightning-utilities",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.15.3",
+      "license_expression": null,
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/Lightning-AI/utilities",
+      "project_urls": [
+        "Bug Tracker, https://github.com/Lightning-AI/utilities/issues",
+        "Documentation, https://dev-toolbox.rtfd.io/en/latest/",
+        "Source Code, https://github.com/Lightning-AI/utilities"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "llvmlite",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.50.0",
+      "license_expression": "BSD-2-Clause AND Apache-2.0 WITH LLVM-exception",
+      "license": "",
+      "homepage": "http://llvmlite.readthedocs.io",
+      "project_urls": [
+        "Source, https://github.com/numba/llvmlite"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "loguru",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.7.3",
+      "license_expression": null,
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Changelog, https://github.com/Delgan/loguru/blob/master/CHANGELOG.rst",
+        "Documentation, https://loguru.readthedocs.io/en/stable/index.html",
+        "Homepage, https://github.com/Delgan/loguru"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "markdown-it-py",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "4.2.0",
+      "license_expression": null,
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Documentation, https://markdown-it-py.readthedocs.io",
+        "Homepage, https://github.com/executablebooks/markdown-it-py"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "markupsafe",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "3.0.4",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Donate, https://palletsprojects.com/donate",
+        "Documentation, https://markupsafe.palletsprojects.com/",
+        "Changes, https://markupsafe.palletsprojects.com/page/changes/",
+        "Source, https://github.com/pallets/markupsafe/",
+        "Chat, https://discord.gg/pallets"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "matplotlib",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "3.10.7",
+      "license_expression": null,
+      "license": "License agreement for matplotlib versions 1.3.0 and later\n =========================================================\n\n 1. This LICENSE AGREEMENT is between the ",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://matplotlib.org",
+        "Download, https://matplotlib.org/stable/install/index.html",
+        "Documentation, https://matplotlib.org",
+        "Source Code, https://github.com/matplotlib/matplotlib",
+        "Bug Tracker, https://github.com/matplotlib/matplotlib/issues",
+        "Forum, https://discourse.matplotlib.org/",
+        "Donate, https://numfocus.org/donate-to-matplotlib"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "mdurl",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "0.1.2",
+      "license_expression": null,
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/executablebooks/mdurl"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "more-itertools",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "11.2.1",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Documentation, https://more-itertools.readthedocs.io/en/stable/",
+        "Homepage, https://github.com/more-itertools/more-itertools"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "mpmath",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "1.3.0",
+      "license_expression": null,
+      "license": "BSD",
+      "homepage": "http://mpmath.org/",
+      "project_urls": [
+        "Source, https://github.com/fredrik-johansson/mpmath",
+        "Tracker, https://github.com/fredrik-johansson/mpmath/issues",
+        "Documentation, http://mpmath.org/doc/current/"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "msgpack",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "1.2.4",
+      "license_expression": "Apache-2.0",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://msgpack.org/",
+        "Documentation, https://msgpack-python.readthedocs.io/",
+        "Repository, https://github.com/msgpack/msgpack-python/",
+        "Tracker, https://github.com/msgpack/msgpack-python/issues",
+        "Changelog, https://github.com/msgpack/msgpack-python/blob/main/CHANGELOG.md"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "multidict",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "7.2.1",
+      "license_expression": "Apache-2.0",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/aio-libs/multidict",
+        "Chat: Matrix, https://matrix.to/#/#aio-libs:matrix.org",
+        "Chat: Matrix Space, https://matrix.to/#/#aio-libs-space:matrix.org",
+        "CI: GitHub, https://github.com/aio-libs/multidict/actions",
+        "Code of Conduct, https://github.com/aio-libs/.github/blob/master/CODE_OF_CONDUCT.md",
+        "Coverage: codecov, https://codecov.io/github/aio-libs/multidict",
+        "Docs: Changelog, https://multidict.aio-libs.org/en/latest/changes/",
+        "Docs: RTD, https://multidict.aio-libs.org",
+        "GitHub: issues, https://github.com/aio-libs/multidict/issues",
+        "GitHub: repo, https://github.com/aio-libs/multidict"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "nagisa",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "0.2.11",
+      "license_expression": null,
+      "license": "MIT License",
+      "homepage": "https://github.com/taishi-i/nagisa",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "narwhals",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "2.28.0",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/narwhals-dev/narwhals",
+        "Documentation, https://narwhals-dev.github.io/narwhals/",
+        "Repository, https://github.com/narwhals-dev/narwhals",
+        "Bug Tracker, https://github.com/narwhals-dev/narwhals/issues"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "networkx",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "3.7",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://networkx.org/",
+        "Bug Tracker, https://github.com/networkx/networkx/issues",
+        "Documentation, https://networkx.org/documentation/stable/",
+        "Source Code, https://github.com/networkx/networkx"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "nltk",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "3.10.4",
+      "license_expression": null,
+      "license": "Apache License, Version 2.0",
+      "homepage": "https://www.nltk.org/",
+      "project_urls": [
+        "Documentation, https://www.nltk.org/",
+        "Source Code, https://github.com/nltk/nltk",
+        "Issue Tracker, https://github.com/nltk/nltk/issues"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "numba",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.68.1",
+      "license_expression": null,
+      "license": "BSD",
+      "homepage": "https://numba.pydata.org",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "numpy",
+      "declared_in": [
+        "requirements-app.txt",
+        "requirements-asr-cuda.lock.txt",
+        "requirements-camera.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "2.5.4",
+      "license_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "homepage, https://numpy.org",
+        "documentation, https://numpy.org/doc/",
+        "source, https://github.com/numpy/numpy",
+        "download, https://pypi.org/project/numpy/#files",
+        "tracker, https://github.com/numpy/numpy/issues",
+        "release notes, https://numpy.org/doc/stable/release"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "opencv-python-headless",
+      "declared_in": [
+        "requirements-camera.lock.txt"
+      ],
+      "observed_version": "4.13.0.92",
+      "license_expression": null,
+      "license": "Apache 2.0",
+      "homepage": "https://github.com/opencv/opencv-python",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "opentelemetry-api",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "1.45.1",
+      "license_expression": "Apache-2.0",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/open-telemetry/opentelemetry-python/tree/main/opentelemetry-api",
+        "Repository, https://github.com/open-telemetry/opentelemetry-python"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "orjson",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "3.13.0",
+      "license_expression": "MPL-2.0 AND (Apache-2.0 OR MIT)",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "changelog, https://github.com/ijl/orjson/blob/master/CHANGELOG.md",
+        "documentation, https://github.com/ijl/orjson",
+        "source, https://github.com/ijl/orjson"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "packaging",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "26.3",
+      "license_expression": "Apache-2.0 OR BSD-2-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Documentation, https://packaging.pypa.io/",
+        "Source, https://github.com/pypa/packaging"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "pandas",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "3.1.0",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "homepage, https://pandas.pydata.org",
+        "source, https://github.com/pandas-dev/pandas",
+        "documentation, https://pandas.pydata.org/docs/",
+        "changelog, https://pandas.pydata.org/docs/whatsnew/index.html",
+        "issues, https://github.com/pandas-dev/pandas/issues",
+        "funding, https://opencollective.com/pandas"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "peft",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "0.17.1",
+      "license_expression": null,
+      "license": "Apache",
+      "homepage": "https://github.com/huggingface/peft",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "pillow",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "12.3.0",
+      "license_expression": "MIT-CMU",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+        "Changelog, https://github.com/python-pillow/Pillow/releases",
+        "Documentation, https://pillow.readthedocs.io",
+        "Funding, https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi",
+        "Homepage, https://python-pillow.github.io",
+        "Mastodon, https://fosstodon.org/@pillow",
+        "Source, https://github.com/python-pillow/Pillow"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "platformdirs",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "4.13.7",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Changelog, https://platformdirs.readthedocs.io/en/latest/changelog.html",
+        "Documentation, https://platformdirs.readthedocs.io",
+        "Homepage, https://github.com/tox-dev/platformdirs",
+        "Source, https://github.com/tox-dev/platformdirs",
+        "Tracker, https://github.com/tox-dev/platformdirs/issues"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "pooch",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "1.9.0",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Documentation, https://www.fatiando.org/pooch",
+        "Changelog, https://www.fatiando.org/pooch/latest/changes.html",
+        "Bug Tracker, https://github.com/fatiando/pooch/issues",
+        "Source Code, https://github.com/fatiando/pooch"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "proces",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.1.7",
+      "license_expression": null,
+      "license": "MIT License",
+      "homepage": "https://github.com/Ailln/proces",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "propcache",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.5.4",
+      "license_expression": null,
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/aio-libs/propcache",
+      "project_urls": [
+        "Chat: Matrix, https://matrix.to/#/#aio-libs:matrix.org",
+        "Chat: Matrix Space, https://matrix.to/#/#aio-libs-space:matrix.org",
+        "CI: GitHub Workflows, https://github.com/aio-libs/propcache/actions?query=branch:master",
+        "Code of Conduct, https://github.com/aio-libs/.github/blob/master/CODE_OF_CONDUCT.md",
+        "Coverage: codecov, https://codecov.io/github/aio-libs/propcache",
+        "Docs: Changelog, https://propcache.readthedocs.io/en/latest/changes/",
+        "Docs: RTD, https://propcache.readthedocs.io",
+        "GitHub: issues, https://github.com/aio-libs/propcache/issues",
+        "GitHub: repo, https://github.com/aio-libs/propcache"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "psutil",
+      "declared_in": [
+        "requirements-app.txt",
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "7.2.2",
+      "license_expression": null,
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/giampaolo/psutil",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "pycparser",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "3.12",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/eliben/pycparser"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "pydantic",
+      "declared_in": [
+        "requirements-app.txt",
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "2.14.1",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/pydantic/pydantic",
+        "Documentation, https://pydantic.dev/docs/validation/latest/get-started/",
+        "Funding, https://github.com/sponsors/samuelcolvin",
+        "Source, https://github.com/pydantic/pydantic",
+        "Changelog, https://pydantic.dev/docs/validation/latest/get-started/changelog/"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "pydantic-core",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "2.50.1",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": "https://github.com/pydantic/pydantic",
+      "project_urls": [
+        "Funding, https://github.com/sponsors/samuelcolvin",
+        "Homepage, https://github.com/pydantic",
+        "Source, https://github.com/pydantic/pydantic/tree/main/pydantic-core"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "pydub",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "0.25.1",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": "http://pydub.com",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "pygments",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "2.21.0",
+      "license_expression": "BSD-2-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://pygments.org",
+        "Documentation, https://pygments.org/docs",
+        "Source, https://github.com/pygments/pygments",
+        "Bug Tracker, https://github.com/pygments/pygments/issues",
+        "Changelog, https://github.com/pygments/pygments/blob/master/CHANGES"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "pyopenjtalk-plus",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "0.4.1.post9",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/tsukumijima/pyopenjtalk-plus"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "pyparsing",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "3.3.3",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Documentation, https://pyparsing-docs.readthedocs.io/en/latest/",
+        "Homepage, https://github.com/pyparsing/pyparsing/",
+        "Source, https://github.com/pyparsing/pyparsing.git"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "pypinyin",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "0.53.0",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": "https://github.com/mozillazg/python-pinyin",
+      "project_urls": [
+        "Documentation, https://pypinyin.readthedocs.io/",
+        "Source, https://github.com/mozillazg/python-pinyin",
+        "Tracker, https://github.com/mozillazg/python-pinyin/issues"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "pyside6-essentials",
+      "declared_in": [
+        "requirements-gui.txt"
+      ],
+      "observed_version": "6.8.3",
+      "license_expression": null,
+      "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://pyside.org",
+        "Documentation, https://doc.qt.io/qtforpython",
+        "Repository, https://code.qt.io/cgit/pyside/pyside-setup.git/",
+        "Changelog, https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs",
+        "Tracker, https://bugreports.qt.io/projects/PYSIDE"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "python-dateutil",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "3.0.0",
+      "license_expression": null,
+      "license": "Dual License",
+      "homepage": "https://github.com/dateutil/dateutil",
+      "project_urls": [
+        "Documentation, https://dateutil.readthedocs.io/en/stable/",
+        "Source, https://github.com/dateutil/dateutil"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "python-multipart",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "0.0.32",
+      "license_expression": "Apache-2.0",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/Kludex/python-multipart",
+        "Documentation, https://kludex.github.io/python-multipart/",
+        "Changelog, https://github.com/Kludex/python-multipart/blob/master/CHANGELOG.md",
+        "Source, https://github.com/Kludex/python-multipart"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "pytorch-lightning",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "2.5.5",
+      "license_expression": null,
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/Lightning-AI/lightning",
+      "project_urls": [
+        "Bug Tracker, https://github.com/Lightning-AI/pytorch-lightning/issues",
+        "Documentation, https://pytorch-lightning.rtfd.io/en/latest/",
+        "Source Code, https://github.com/Lightning-AI/lightning"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "pytz",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "2026.5",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": "http://pythonhosted.org/pytz",
+      "project_urls": [
+        "Source, https://github.com/stub42/pytz.git",
+        "Issues, https://github.com/stub42/pytz/issues"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "pyvirtualcam",
+      "declared_in": [
+        "requirements-camera.lock.txt"
+      ],
+      "observed_version": "0.15.0",
+      "license_expression": null,
+      "license": "",
+      "homepage": "https://github.com/letmaik/pyvirtualcam",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "pyyaml",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "6.0.3",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": "https://pyyaml.org/",
+      "project_urls": [
+        "Bug Tracker, https://github.com/yaml/pyyaml/issues",
+        "CI, https://github.com/yaml/pyyaml/actions",
+        "Documentation, https://pyyaml.org/wiki/PyYAMLDocumentation",
+        "Mailing lists, http://lists.sourceforge.net/lists/listinfo/yaml-core",
+        "Source Code, https://github.com/yaml/pyyaml"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "qwen-asr",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-asr-cuda.txt"
+      ],
+      "observed_version": "0.0.6",
+      "license_expression": null,
+      "license": "Apache-2.0",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/Qwen/Qwen3-ASR",
+        "Repository, https://github.com/Qwen/Qwen3-ASR"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "qwen-omni-utils",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "0.0.9",
+      "license_expression": null,
+      "license": "Apache-2.0",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/QwenLM/Qwen2-VL/tree/main/qwen-vl-utils",
+        "Repository, https://github.com/QwenLM/Qwen2-VL.git",
+        "Issues, https://github.com/QwenLM/Qwen2-VL/issues"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "regex",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "2026.9.29",
+      "license_expression": "Apache-2.0 AND CNRI-Python",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/mrabarnett/mrab-regex"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "requests",
+      "declared_in": [
+        "requirements-app.txt",
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "2.34.2",
+      "license_expression": null,
+      "license": "Apache-2.0",
+      "homepage": null,
+      "project_urls": [
+        "Documentation, https://requests.readthedocs.io",
+        "Source, https://github.com/psf/requests"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "resampy",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "0.4.3",
+      "license_expression": null,
+      "license": "ISC",
+      "homepage": "https://github.com/bmcfee/resampy",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "rich",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "15.0.0",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": null,
+      "project_urls": [
+        "Documentation, https://rich.readthedocs.io/en/latest/",
+        "Homepage, https://github.com/Textualize/rich"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "robust-downloader",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.0.2",
+      "license_expression": null,
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/fedebotu/robust-downloader",
+        "Bug Tracker, https://github.com/fedebotu/robust-downloader/issues"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "rotary-embedding-torch",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "0.8.9",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": "https://github.com/lucidrains/rotary-embedding-torch",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "safehttpx",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "0.1.7",
+      "license_expression": null,
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "homepage, https://github.com/gradio-app/safehttpx",
+        "repository, https://github.com/gradio-app/safehttpx"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "safetensors",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "0.8.0",
+      "license_expression": null,
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/huggingface/safetensors",
+        "Source, https://github.com/huggingface/safetensors"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "scikit-learn",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "1.9.1",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "homepage, https://scikit-learn.org",
+        "source, https://github.com/scikit-learn/scikit-learn",
+        "download, https://pypi.org/project/scikit-learn/#files",
+        "tracker, https://github.com/scikit-learn/scikit-learn/issues",
+        "release notes, https://scikit-learn.org/stable/whats_new"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "scipy",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "1.18.1",
+      "license_expression": null,
+      "license": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modi",
+      "homepage": null,
+      "project_urls": [
+        "homepage, https://scipy.org/",
+        "documentation, https://docs.scipy.org/doc/scipy/",
+        "source, https://github.com/scipy/scipy",
+        "download, https://github.com/scipy/scipy/releases",
+        "tracker, https://github.com/scipy/scipy/issues"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "semantic-version",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "2.10.0",
+      "license_expression": null,
+      "license": "BSD",
+      "homepage": "https://github.com/rbarrois/python-semanticversion",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "sentencepiece",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-asr-cuda.txt",
+        "requirements-opusmt-cpu.lock.txt",
+        "requirements-opusmt-cpu.txt"
+      ],
+      "observed_version": "0.2.1",
+      "license_expression": null,
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/google/sentencepiece"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "setuptools",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "84.2.1",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Source, https://github.com/pypa/setuptools",
+        "Documentation, https://setuptools.pypa.io/",
+        "Changelog, https://setuptools.pypa.io/en/stable/history.html"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "shellingham",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "1.5.4",
+      "license_expression": null,
+      "license": "ISC License",
+      "homepage": "https://github.com/sarugaku/shellingham",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "shiboken6",
+      "declared_in": [
+        "requirements-gui.txt"
+      ],
+      "observed_version": "6.8.3",
+      "license_expression": null,
+      "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://pyside.org",
+        "Documentation, https://doc.qt.io/qtforpython",
+        "Repository, https://code.qt.io/cgit/pyside/pyside-setup.git/",
+        "Changelog, https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs",
+        "Tracker, https://bugreports.qt.io/projects/PYSIDE"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "six",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "1.17.0",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": "https://github.com/benjaminp/six",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "sounddevice",
+      "declared_in": [
+        "requirements-app.txt"
+      ],
+      "observed_version": "0.5.6",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Documentation, https://python-sounddevice.readthedocs.io/",
+        "Repository, https://github.com/spatialaudio/python-sounddevice/",
+        "Issues, https://github.com/spatialaudio/python-sounddevice/issues"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "soundfile",
+      "declared_in": [
+        "requirements-app.txt",
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "0.14.0",
+      "license_expression": null,
+      "license": "BSD 3-Clause License",
+      "homepage": "https://github.com/bastibe/python-soundfile",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "sox",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "1.5.0",
+      "license_expression": null,
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/rabitt/pysox",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "soxr",
+      "declared_in": [
+        "requirements-app.txt",
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "1.1.0",
+      "license_expression": "LGPL-2.1-or-later",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/dofuuz/python-soxr",
+        "Documentation, https://python-soxr.readthedocs.io",
+        "Release Notes, https://github.com/dofuuz/python-soxr/releases",
+        "Source, https://github.com/dofuuz/python-soxr",
+        "Bug Tracker, https://github.com/dofuuz/python-soxr/issues"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "soynlp",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "0.0.493",
+      "license_expression": null,
+      "license": "UNKNOWN",
+      "homepage": "https://github.com/lovit/soynlp",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "split-lang",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "2.1.0",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": "https://github.com/DoodleBears/langsplit",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "starlette",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "1.10.0",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/Kludex/starlette",
+        "Documentation, https://starlette.dev/",
+        "Changelog, https://starlette.dev/release-notes/",
+        "Funding, https://github.com/sponsors/Kludex",
+        "Source, https://github.com/Kludex/starlette"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "sudachidict-core",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "20261015",
+      "license_expression": null,
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/WorksApplications/SudachiDict",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "sudachipy",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.7.0",
+      "license_expression": "Apache-2.0",
+      "license": "",
+      "homepage": "https://github.com/WorksApplications/sudachi.rs",
+      "project_urls": [
+        "Homepage, https://github.com/WorksApplications/sudachi.rs/tree/develop/python"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "sympy",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "1.13.1",
+      "license_expression": null,
+      "license": "BSD",
+      "homepage": "https://sympy.org",
+      "project_urls": [
+        "Source, https://github.com/sympy/sympy"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "threadpoolctl",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "3.7.0",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "homepage, https://github.com/joblib/threadpoolctl"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "tokenizers",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "0.22.2",
+      "license_expression": null,
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/huggingface/tokenizers",
+        "Source, https://github.com/huggingface/tokenizers"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "tomlkit",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "0.14.0",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/sdispater/tomlkit",
+        "Repository, https://github.com/sdispater/tomlkit"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "torch",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-asr-cuda.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt",
+        "requirements-opusmt-cpu.lock.txt",
+        "requirements-opusmt-cpu.txt"
+      ],
+      "observed_version": "2.6.0+cu124",
+      "license_expression": null,
+      "license": "BSD-3-Clause",
+      "homepage": "https://pytorch.org/",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "torchaudio",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "2.6.0+cu124",
+      "license_expression": null,
+      "license": "",
+      "homepage": "https://github.com/pytorch/audio",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "torchmetrics",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "1.5.0",
+      "license_expression": null,
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/Lightning-AI/torchmetrics",
+      "project_urls": [
+        "Bug Tracker, https://github.com/Lightning-AI/torchmetrics/issues",
+        "Documentation, https://torchmetrics.rtfd.io/en/latest/",
+        "Source Code, https://github.com/Lightning-AI/torchmetrics"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "tqdm",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "4.70.1",
+      "license_expression": null,
+      "license": "MPL-2.0 AND MIT",
+      "homepage": null,
+      "project_urls": [
+        "homepage, https://tqdm.github.io",
+        "repository, https://github.com/tqdm/tqdm",
+        "changelog, https://tqdm.github.io/releases",
+        "wiki, https://github.com/tqdm/tqdm/wiki"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "transformers",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-asr-cuda.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt",
+        "requirements-opusmt-cpu.lock.txt",
+        "requirements-opusmt-cpu.txt"
+      ],
+      "observed_version": "4.57.6",
+      "license_expression": null,
+      "license": "Apache 2.0 License",
+      "homepage": "https://github.com/huggingface/transformers",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "typeguard",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "4.6.0",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Documentation, https://typeguard.readthedocs.io/en/latest/",
+        "Change log, https://typeguard.readthedocs.io/en/latest/versionhistory.html",
+        "Source code, https://github.com/agronholm/typeguard",
+        "Issue tracker, https://github.com/agronholm/typeguard/issues"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "typer",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "0.27.3",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/fastapi/typer",
+        "Documentation, https://typer.tiangolo.com",
+        "Repository, https://github.com/fastapi/typer",
+        "Issues, https://github.com/fastapi/typer/issues",
+        "Changelog, https://typer.tiangolo.com/release-notes/"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "typing-extensions",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "4.16.0",
+      "license_expression": "PSF-2.0",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Bug Tracker, https://github.com/python/typing_extensions/issues",
+        "Changes, https://github.com/python/typing_extensions/blob/main/CHANGELOG.md",
+        "Documentation, https://typing-extensions.readthedocs.io/",
+        "Home, https://github.com/python/typing_extensions",
+        "Q & A, https://github.com/python/typing/discussions",
+        "Repository, https://github.com/python/typing_extensions"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "typing-inspection",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "0.4.4",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/pydantic/typing-inspection",
+        "Documentation, https://pydantic.github.io/typing-inspection/dev/",
+        "Source, https://github.com/pydantic/typing-inspection",
+        "Changelog, https://github.com/pydantic/typing-inspection/blob/main/HISTORY.md"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "tzdata",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "2026.6",
+      "license_expression": null,
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/python/tzdata",
+      "project_urls": [
+        "Bug Reports, https://github.com/python/tzdata/issues",
+        "Source, https://github.com/python/tzdata",
+        "Documentation, https://tzdata.python.org"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "urllib3",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt",
+        "requirements-gptsovits.lock.txt",
+        "requirements-opusmt-cpu.lock.txt"
+      ],
+      "observed_version": "2.8.0",
+      "license_expression": "MIT",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Changelog, https://github.com/urllib3/urllib3/blob/main/CHANGES.rst",
+        "Documentation, https://urllib3.readthedocs.io",
+        "Code, https://github.com/urllib3/urllib3",
+        "Issue tracker, https://github.com/urllib3/urllib3/issues",
+        "Security policy, https://urllib3.readthedocs.io/en/latest/security.html"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "uvicorn",
+      "declared_in": [
+        "requirements-app.txt",
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "0.54.0",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Changelog, https://uvicorn.dev/release-notes",
+        "Funding, https://github.com/sponsors/Kludex",
+        "Homepage, https://uvicorn.dev/",
+        "Source, https://github.com/Kludex/uvicorn"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "websockets",
+      "declared_in": [
+        "requirements-app.txt"
+      ],
+      "observed_version": "17.3",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Homepage, https://github.com/python-websockets/websockets",
+        "Changelog, https://websockets.readthedocs.io/en/stable/project/changelog.html",
+        "Documentation, https://websockets.readthedocs.io/",
+        "Funding, https://tidelift.com/subscription/pkg/pypi-websockets?utm_source=pypi-websockets&utm_medium=referral&utm_campaign=readme",
+        "Tracker, https://github.com/python-websockets/websockets/issues"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "werkzeug",
+      "declared_in": [
+        "requirements-asr-cuda.lock.txt"
+      ],
+      "observed_version": "3.1.9",
+      "license_expression": "BSD-3-Clause",
+      "license": "",
+      "homepage": null,
+      "project_urls": [
+        "Changes, https://werkzeug.palletsprojects.com/page/changes/",
+        "Chat, https://discord.gg/pallets",
+        "Documentation, https://werkzeug.palletsprojects.com/",
+        "Donate, https://palletsprojects.com/donate",
+        "Source, https://github.com/pallets/werkzeug/"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "win32-setctime",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "1.2.1",
+      "license_expression": null,
+      "license": "MIT license",
+      "homepage": "https://github.com/Delgan/win32-setctime",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "wordsegment",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "1.3.1",
+      "license_expression": null,
+      "license": "Apache 2.0",
+      "homepage": "http://www.grantjenks.com/docs/wordsegment/",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "x-transformers",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt",
+        "requirements-gptsovits.txt"
+      ],
+      "observed_version": "1.43.4",
+      "license_expression": null,
+      "license": "MIT",
+      "homepage": "https://github.com/lucidrains/x-transformers",
+      "project_urls": [],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    },
+    {
+      "package": "yarl",
+      "declared_in": [
+        "requirements-gptsovits.lock.txt"
+      ],
+      "observed_version": "1.25.1",
+      "license_expression": null,
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/aio-libs/yarl",
+      "project_urls": [
+        "Chat: Matrix, https://matrix.to/#/#aio-libs:matrix.org",
+        "Chat: Matrix Space, https://matrix.to/#/#aio-libs-space:matrix.org",
+        "CI: GitHub Workflows, https://github.com/aio-libs/yarl/actions?query=branch:master",
+        "Code of Conduct, https://github.com/aio-libs/.github/blob/master/CODE_OF_CONDUCT.md",
+        "Coverage: codecov, https://codecov.io/github/aio-libs/yarl",
+        "Docs: Changelog, https://yarl.aio-libs.org/en/latest/changes/",
+        "Docs: RTD, https://yarl.aio-libs.org",
+        "GitHub: issues, https://github.com/aio-libs/yarl/issues",
+        "GitHub: repo, https://github.com/aio-libs/yarl"
+      ],
+      "verification": "package metadata; review upstream license files before binary distribution"
+    }
+  ]
+}

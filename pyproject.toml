@@ -1,0 +1,77 @@
+[project]
+name = "open-realtime-translate"
+version = "0.1.0"
+description = "OpenAI Realtime Translation API compatible server, running fully locally on MLX, CUDA, or CPU."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.32",
+    "numpy>=2.0",
+    "soxr>=0.5",
+    # Optional ASR (CTranslate2 based)
+    "faster-whisper>=1.1",
+    # Optional TTS backends
+    "kokoro>=0.9.4",            # Kokoro-82M TTS, a fast/light alternative
+    "misaki[ja,zh]>=0.9.4",     # Kokoro Japanese and Chinese g2p support
+    "supertonic>=1.3.1",        # Supertonic-3 TTS on ONNX/CPU
+    "soundfile>=0.13",
+    "sounddevice>=0.5.5,<0.6",   # Windows WASAPI device enumeration and playback
+    "aiortc>=1.14",             # WebRTC peer transport: SDP/ICE/DTLS/SRTP, Opus
+]
+
+[project.optional-dependencies]
+mlx = [
+    "mlx-audio>=0.4.3",         # Qwen3-ASR / Qwen3-TTS MLX backends
+    "mlx-lm>=0.31",             # TranslateGemma MLX backend
+]
+dev = [
+    "pytest>=8.3",
+    "pytest-asyncio>=0.24",
+    "httpx>=0.27",
+]
+demo = [
+    "gradio>=5",
+]
+nonmlx = [
+    "torch>=2.4",
+    "transformers==4.57.6",
+    "accelerate>=1.0",
+    "qwen-asr>=0.0.6",
+    "qwen-tts>=0.0.5",
+]
+
+[project.scripts]
+ort-server = "ort.app:main"
+
+[tool.uv]
+package = false
+dependency-metadata = [
+    # qwen-asr 0.0.6 requires Transformers 4.57.6, while qwen-tts 0.1.1 still
+    # declares 4.57.3. Keep the qwen-tts package but resolve it against the
+    # shared Qwen ASR-compatible patch release.
+    { name = "qwen-tts", version = "0.1.1", requires-dist = [
+        "transformers==4.57.6",
+        "accelerate==1.12.0",
+        "gradio",
+        "librosa",
+        "torchaudio",
+        "soundfile",
+        "sox",
+        "onnxruntime",
+        "einops",
+    ], requires-python = ">=3.9" },
+]
+conflicts = [
+    [
+        { extra = "mlx" },
+        { extra = "nonmlx" },
+    ],
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+pythonpath = ["."]
+markers = [
+    "e2e: end-to-end test that downloads/loads real models (slow)",
+]
+testpaths = ["tests"]

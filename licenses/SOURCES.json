@@ -1,0 +1,23 @@
+{
+  "checked_date": "2026-11-04",
+  "sources": [
+    {
+      "file": "licenses/GPT-SoVITS-MIT.txt",
+      "url": "https://raw.githubusercontent.com/RVC-Boss/GPT-SoVITS/b4570b876f5c086819ba84e3215472733c6a7b70/LICENSE",
+      "sha256": "8a064eada186601fc602e45feef61c6abb62246d5ae9c3764dd1fc92d946c3c6",
+      "status": "retrieved"
+    },
+    {
+      "file": "licenses/pyvirtualcam-GPL-2.0.txt",
+      "url": "https://raw.githubusercontent.com/letmaik/pyvirtualcam/v0.15.0/LICENSE",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "status": "retrieved"
+    },
+    {
+      "file": "licenses/Qwen3-ASR-Apache-2.0.txt",
+      "url": "https://raw.githubusercontent.com/QwenLM/Qwen3-ASR/main/LICENSE",
+      "sha256": "a44a6081c73ad75f0255bb2bb5cab74ef1829565a895a24e53a4f11290ab7655",
+      "status": "retrieved"
+    }
+  ]
+}
