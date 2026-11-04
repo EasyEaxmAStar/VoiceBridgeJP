@@ -53,7 +53,7 @@ class ProcessJob:
 
 
 class ManagedServer:
-    def __init__(self, reference, *, port=8765, root=None, startup_timeout=180,
+    def __init__(self, reference, *, port=8765, root=None, startup_timeout=600,
                  module='voicebridge.production_server', environment=None):
         self.reference = reference
         self.port = port

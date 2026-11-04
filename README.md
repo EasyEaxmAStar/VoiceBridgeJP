@@ -132,7 +132,7 @@ ASR 和 OPUS-MT 使用标准 Hugging Face 缓存。GPT-SoVITS 文件保存到 `.
 .\.venv\Scripts\python.exe -X utf8 -m voicebridge.gui
 ```
 
-首次启动时选择参考 WAV、填写准确日语文本，并选择物理麦克风。配置保存在 `config/public_tts.local.json`。模型加载、预热完成后，界面显示 READY。
+首次启动时选择参考 WAV、填写准确日语文本，并选择物理麦克风。配置保存在 `config/public_tts.local.json`。模型启动及初始连接的超时为 **10 分钟（600 秒）**；模型加载、预热完成后，界面显示 READY。
 
 1. 选择 **TRANSLATE**，点击 **Start**，开始说普通话。
 2. 在会议软件中选择 **CABLE Output**，接收合成的日语。

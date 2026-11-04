@@ -201,11 +201,11 @@ class LiveBridge:
                 if self.connect is None:
                     import websockets
                     self.connect = lambda url:websockets.connect(url,max_size=256*1024,max_queue=8,
-                        open_timeout=180,close_timeout=.5,ping_interval=20,ping_timeout=20)
+                        open_timeout=600,close_timeout=.5,ping_interval=20,ping_timeout=20)
                 if hasattr(self,"created"):
                     self.counts["reconnects"] += 1
                 self._ws = await self.connect(self.url).__aenter__()
-                first = await asyncio.wait_for(self._receive(),180)
+                first = await asyncio.wait_for(self._receive(),600)
                 self._validate_created(first)
                 self.created = first
                 await self._ws.send(json.dumps({"type":"session.update","session":{"audio":{

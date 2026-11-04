@@ -43,8 +43,8 @@ class TranslationLink(LiveBridge):
     async def run(self):
         import websockets
         try:
-            self._ws=await websockets.connect(self.url,max_size=256*1024,max_queue=8,open_timeout=180,close_timeout=.5)
-            created=await asyncio.wait_for(self._receive(),180)
+            self._ws=await websockets.connect(self.url,max_size=256*1024,max_queue=8,open_timeout=600,close_timeout=.5)
+            created=await asyncio.wait_for(self._receive(),600)
             actual=created['session']['voicebridge'];expected=self.engine.runtime['ready']
             voice=actual['tts_voice_preset']
             if (voice['profile_sha256']!=expected['voice_preset']['profile_sha256'] or

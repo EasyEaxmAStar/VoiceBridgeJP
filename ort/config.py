@@ -177,7 +177,7 @@ class Config:
     gptsovits_custom_sovits_path: str = field(default_factory=lambda: _env("ORT_GPTSOVITS_CUSTOM_SOVITS", ""))
     gptsovits_request_queue: int = 4
     gptsovits_output_queue: int = 8
-    gptsovits_startup_timeout: float = 180.0
+    gptsovits_startup_timeout: float = 600.0
     gptsovits_request_timeout: float = 120.0
 
     # --- optional ASR ---------------------------------------------------------
