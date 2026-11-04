@@ -11,3 +11,5 @@ psutil==7.2.2
 requests==2.34.2
 pydantic==2.14.1
 jieba==0.42.1
+# ort.server registers WebRTC routes when the desktop server imports it.
+aiortc==1.15.0
