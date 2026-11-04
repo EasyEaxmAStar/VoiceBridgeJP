@@ -134,6 +134,8 @@ ASR 和 OPUS-MT 使用标准 Hugging Face 缓存。GPT-SoVITS 文件保存到 `.
 
 首次启动时选择参考 WAV、填写准确日语文本，并选择物理麦克风。配置保存在 `config/public_tts.local.json`。模型加载、预热完成后，界面显示 READY。
 
+若 Windows 将 VB-CABLE 的播放端显示为中文名称，可在该 JSON 文件中将 `output_device` 设为完整 WASAPI 设备名（例如 `扬声器 (VB-Audio Virtual Cable)`）。若麦克风不支持单声道，可将 `input_channels` 设为设备实际支持的声道数。也可在启动进程的环境中设置 `VOICEBRIDGE_OUTPUT_DEVICE` 和 `VOICEBRIDGE_INPUT_CHANNELS`。
+
 1. 选择 **TRANSLATE**，点击 **Start**，开始说普通话。
 2. 在会议软件中选择 **CABLE Output**，接收合成的日语。
 3. 需要直接使用原声时切换到 **DIRECT**。

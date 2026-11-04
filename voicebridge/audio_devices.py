@@ -31,7 +31,7 @@ def _cable_direction(name: str) -> tuple[bool, bool]:
     has_cable = "cable" in normalized and ("vb audio" in normalized or "virtual cable" in normalized)
     if not has_cable:
         return False, False
-    return "input" in normalized, "output" in normalized
+    return "input" in normalized or normalized == "扬声器 (vb audio virtual cable)", "output" in normalized
 
 
 def classify_device(index: int, info: dict[str, Any], host_api: str) -> AudioDevice:

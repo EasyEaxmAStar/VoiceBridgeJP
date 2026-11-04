@@ -22,7 +22,7 @@ async def main_async(args):
     server=None if args.connect else ManagedServer(reference,port=args.port,module='voicebridge.hot_server',
         environment={'VOICEBRIDGE_RELEASE_PRESET':args.preset})
     engine=RoutingEngine(LiveConfig(args.input_device,args.output_device,reference.path,reference.text,
-        url=args.connect or server.url),server=server,preset=args.preset,fixture_input=args.fixture_input)
+        url=args.connect or server.url,input_channels=args.input_channels),server=server,preset=args.preset,fixture_input=args.fixture_input)
     camera_service=None
     if args.json_lines:
         try:
@@ -154,9 +154,10 @@ async def main_async(args):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    from .public_profile import microphone_default
+    from .public_profile import microphone_default,output_default,input_channels_default
     p.add_argument('--input-device',default=microphone_default())
-    p.add_argument('--output-device',default='CABLE Input (VB-Audio Virtual Cable)')
+    p.add_argument("--input-channels",type=int,default=input_channels_default())
+    p.add_argument('--output-device',default=output_default())
     p.add_argument('--preset',choices=NAMES,default=DEFAULT);p.add_argument('--connect');p.add_argument('--port',type=int,default=8765)
     p.add_argument('--report',type=Path);p.add_argument('--json-lines',action='store_true')
     p.add_argument('--parent-gate',type=Path,help=argparse.SUPPRESS)
